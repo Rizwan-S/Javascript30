@@ -1,7 +1,7 @@
 :root {
-  --base: yellow;
-  --spacing: 10px;
-  --blur: 10px;
+    --base: yellow;
+    --spacing: 10px;
+    --blur: 10px;
 }
 
 img {
@@ -22,7 +22,7 @@ body {
     text-align: center;
     background: #193549;
     color: white;
-    font-family: 'helvetica neue', sans-serif;
+    font-family: "helvetica neue", sans-serif;
     font-weight: 100;
     font-size: 50px;
 }

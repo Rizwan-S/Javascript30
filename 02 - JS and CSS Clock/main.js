@@ -6,15 +6,15 @@ function setDate() {
     const now = new Date();
 
     const seconds = now.getSeconds();
-    const secondsDegrees = (seconds * 6) + 90;
+    const secondsDegrees = seconds * 6 + 90;
     secondsHand.style.transform = `rotate(${secondsDegrees}deg)`;
 
     const minutes = now.getMinutes();
-    const minutesDegrees = (minutes * 6) + 90 + (seconds / 10);
+    const minutesDegrees = minutes * 6 + 90 + seconds / 10;
     minutesHand.style.transform = `rotate(${minutesDegrees}deg)`;
 
     const hours = now.getHours();
-    const hourDegrees = (hours * 30) + 90 + (minutes / 2);
+    const hourDegrees = hours * 30 + 90 + minutes / 2;
     hourHand.style.transform = `rotate(${hourDegrees}deg)`;
 }
 
